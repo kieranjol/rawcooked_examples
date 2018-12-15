@@ -17,7 +17,7 @@ The command line was :
 These commands mean:  
 * `seq2ffv1.py` - calls the script
 * `-rawcooked` - use RAWcooked rather than ffmpeg on its own to create FFV1/MKV
-* `-short_test` - this will rawcooked 24 frames to a tmp directory, make a checksum manifest of the 24 frames, then unrRAWcooks/reversese the MKV, then make a checksum manifest of the unrawcooked DPX, and checks if the MD5s are identical. This seems to me to be a good trade-off between knowing that rawcooked will maintain your image data AND your metadata, and the time and space requried to do a full check.
+* `-short_test` - this will rawcooked 24 frames to a tmp directory, make a checksum manifest of the 24 frames, then unrRAWcooks/reversese the MKV, then make a checksum manifest of the unrawcooked DPX, and checks if the MD5s are identical. This seems to me to be a good trade-off between knowing that rawcooked will maintain your image data AND your metadata, and the time and space requried to do a full check. However, until a reversibility check is added within rawcooked, we currently perform a manual reversibilty test (as described above) before a package is accessioned.
 * `-sip` - launches `sipcreator.py` to make a IFI-specific folder structure for the package.  
 * `-i` - path to input DPX sequence
 * `-o` - path to output 
