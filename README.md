@@ -32,7 +32,6 @@ It contains:
 * This log documents the actual RAWcooked event via ffmpeg - https://github.com/kieranjol/rawcooked_examples/blob/master/ifi_rawcooked_sample_package/oe12345/87e25ab6-b666-4e2e-a993-60442d4c5556/logs/87e25ab6-b666-4e2e-a993-60442d4c5556_rawcooked.log
 * This log documents the ffmpeg framemd5 creation event for the rawcooked MKV - https://github.com/kieranjol/rawcooked_examples/blob/master/ifi_rawcooked_sample_package/oe12345/87e25ab6-b666-4e2e-a993-60442d4c5556/logs/87e25ab6-b666-4e2e-a993-60442d4c5556_ffv1_framemd5.log
 * The actual MKV file is in the `objects` subfolder
-* in the metadata subfolder, there is mediainfo and mediatrace XML for the MKV file
-* in the `supplemental` subfolder, there is Mediainfo, Mediatrace and Digital Forensics XML (minus the hashes) for the actual source DPX files.
-
+* In the metadata subfolder, there is mediainfo and mediatrace XML for the MKV file and framemd5 manifests for the source DPX sequence and the MKV file
+* In the `supplemental` subfolder, there is Mediainfo, Mediatrace and Digital Forensics XML (minus the hashes) for the actual source DPX files.
 
