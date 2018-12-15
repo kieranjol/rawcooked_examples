@@ -12,6 +12,16 @@ ifi_sample_rawcooked_package
 -
 This contains a package that was created by this python script: https://github.com/kieranjol/IFIscripts/blob/master/seq2ffv1.py  
 
+The command line was :  
+`$ seq2ffv1.py -rawcooked -short_test -sip -i '/home/kieranjol/tests/dpx_48_frames' -o '/home/kieranjol/tests/output' `  
+These commands mean:  
+* `seq2ffv1.py` - calls the script
+* `-rawcooked` - use RAWcooked rather than ffmpeg on its own to create FFV1/MKV
+* `-short_test` - this will rawcooked 24 frames to a tmp directory, make a checksum manifest of the 24 frames, then unrRAWcooks/reversese the MKV, then make a checksum manifest of the unrawcooked DPX, and checks if the MD5s are identical. This seems to me to be a good trade-off between knowing that rawcooked will maintain your image data AND your metadata, and the time and space requried to do a full check.
+* `-sip` - launches `sipcreator.py` to make a IFI-specific folder structure for the package.  
+* `-i` - path to input DPX sequence
+* `-o` - path to output 
+
 This is not the final phase in our workflow, when this package has passed QC, we run an accessioning script which adds the accession number, a sha512 manifest, Digital Forensics XML (minus the hashes), descriptiove and technical metadata CSV and updates the log file.
 
 It contains:  
