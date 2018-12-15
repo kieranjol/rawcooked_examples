@@ -4,7 +4,7 @@ Contents:
 ----------
 DPX_48_frames:
 -
-: 48 mandelbrot frames generated via:  
+ 48 mandelbrot frames generated via:  
 ` $ ffmpeg -report -f lavfi -i mandelbrot -pix_fmt gbrp10le -vframes 48 tests/dpx_48_frames/dont_call_me_eddie_%06d.dpx 
 `
 
