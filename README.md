@@ -27,7 +27,7 @@ This is not the final phase in our workflow, when this package has passed QC, we
 It contains:  
 * A checksum manifest
 * logs/metadata/objects subfolders
-* This log in particular contains a lot of information about the `seq2ffv1.py` process. Line 10 shows the losslessness verification judgement : https://github.com/kieranjol/rawcooked_examples/blob/master/ifi_rawcooked_sample_package/oe12345/87e25ab6-b666-4e2e-a993-60442d4c5556/logs/87e25ab6-b666-4e2e-a993-60442d4c5556_sip_log.log
+* This log in particular contains a lot of information about the `seq2ffv1.py` process. Line 10 shows the losslessness verification judgement which is generated via a comparison of the framemd5 files: https://github.com/kieranjol/rawcooked_examples/blob/master/ifi_rawcooked_sample_package/oe12345/87e25ab6-b666-4e2e-a993-60442d4c5556/logs/87e25ab6-b666-4e2e-a993-60442d4c5556_sip_log.log
 * This log documents the ffmpeg framemd5 creation event: https://github.com/kieranjol/rawcooked_examples/blob/master/ifi_rawcooked_sample_package/oe12345/87e25ab6-b666-4e2e-a993-60442d4c5556/logs/87e25ab6-b666-4e2e-a993-60442d4c5556_source_framemd5.log
 * This log documents the actual RAWcooked event via ffmpeg - https://github.com/kieranjol/rawcooked_examples/blob/master/ifi_rawcooked_sample_package/oe12345/87e25ab6-b666-4e2e-a993-60442d4c5556/logs/87e25ab6-b666-4e2e-a993-60442d4c5556_rawcooked.log
 * This log documents the ffmpeg framemd5 creation event for the rawcooked MKV - https://github.com/kieranjol/rawcooked_examples/blob/master/ifi_rawcooked_sample_package/oe12345/87e25ab6-b666-4e2e-a993-60442d4c5556/logs/87e25ab6-b666-4e2e-a993-60442d4c5556_ffv1_framemd5.log
