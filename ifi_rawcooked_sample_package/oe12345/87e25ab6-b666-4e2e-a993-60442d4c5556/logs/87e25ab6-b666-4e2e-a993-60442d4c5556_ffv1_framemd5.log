@@ -1,0 +1,115 @@
+ffmpeg started on 2018-12-15 at 09:45:32
+Report written to "/tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_ffv1_framemd5.log"
+Command line:
+ffmpeg -report -i /home/kieranjol/tests/output/87e25ab6-b666-4e2e-a993-60442d4c5556.mkv -pix_fmt gbrp10le -f framemd5 /tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_ffv1.framemd5
+ffmpeg version 3.4.4-0ubuntu0.18.04.1 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Splitting the commandline.
+Reading option '-report' ... matched as option 'report' (generate a report) with argument '1'.
+Reading option '-i' ... matched as input url with argument '/home/kieranjol/tests/output/87e25ab6-b666-4e2e-a993-60442d4c5556.mkv'.
+Reading option '-pix_fmt' ... matched as option 'pix_fmt' (set pixel format) with argument 'gbrp10le'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'framemd5'.
+Reading option '/tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_ffv1.framemd5' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option report (generate a report) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url /home/kieranjol/tests/output/87e25ab6-b666-4e2e-a993-60442d4c5556.mkv.
+Successfully parsed a group of options.
+Opening an input file: /home/kieranjol/tests/output/87e25ab6-b666-4e2e-a993-60442d4c5556.mkv.
+[NULL @ 0x5563ecb81aa0] Opening '/home/kieranjol/tests/output/87e25ab6-b666-4e2e-a993-60442d4c5556.mkv' for reading
+[file @ 0x5563ecb82460] Setting default whitelist 'file,crypto'
+[matroska,webm @ 0x5563ecb81aa0] Format matroska,webm probed with size=2048 and score=100
+st:0 removing common factor 1000000 from timebase
+[matroska,webm @ 0x5563ecb81aa0] Before avformat_find_stream_info() pos: 3451 bytes read:32768 seeks:0 nb_streams:2
+[matroska,webm @ 0x5563ecb81aa0] parser not found for codec ffv1, packets or times may be invalid.
+[matroska,webm @ 0x5563ecb81aa0] parser not found for codec ffv1, packets or times may be invalid.
+[matroska,webm @ 0x5563ecb81aa0] Probe buffer size limit of 5000000 bytes reached
+[matroska,webm @ 0x5563ecb81aa0] Could not find codec parameters for stream 1 (Attachment: none): unknown codec
+Consider increasing the value for the 'analyzeduration' and 'probesize' options
+[matroska,webm @ 0x5563ecb81aa0] After avformat_find_stream_info() pos: 5184010 bytes read:5184010 seeks:0 frames:15
+Input #0, matroska,webm, from '/home/kieranjol/tests/output/87e25ab6-b666-4e2e-a993-60442d4c5556.mkv':
+  Metadata:
+    ENCODER         : Lavf57.83.100
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 75962 kb/s
+    Stream #0:0, 15, 1/1000: Video: ffv1 (FFV1 / 0x31564646), gbrp10le(progressive), 640x480, SAR 1:1 DAR 4:3, 24 fps, 24 tbr, 1k tbn, 1k tbc (default)
+    Metadata:
+      ENCODER         : Lavc57.107.100 ffv1
+      DURATION        : 00:00:02.000000000
+    Stream #0:1, 0, 1/90000: Attachment: none
+    Metadata:
+      filename        : RAWcooked reversibility data
+      mimetype        : application/octet-stream
+Successfully opened the file.
+Parsing a group of options: output url /tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_ffv1.framemd5.
+Applying option pix_fmt (set pixel format) with argument gbrp10le.
+Applying option f (force format) with argument framemd5.
+Successfully parsed a group of options.
+Opening an output file: /tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_ffv1.framemd5.
+[file @ 0x5563ecdb64a0] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+detected 4 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (ffv1 (native) -> rawvideo (native))
+Press [q] to stop, [?] for help
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[graph 0 input from stream 0:0 @ 0x5563ed8ba9a0] Setting 'video_size' to value '640x480'
+[graph 0 input from stream 0:0 @ 0x5563ed8ba9a0] Setting 'pix_fmt' to value '86'
+[graph 0 input from stream 0:0 @ 0x5563ed8ba9a0] Setting 'time_base' to value '1/1000'
+[graph 0 input from stream 0:0 @ 0x5563ed8ba9a0] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 0:0 @ 0x5563ed8ba9a0] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 0x5563ed8ba9a0] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 0x5563ed8ba9a0] w:640 h:480 pixfmt:gbrp10le tb:1/1000 fr:24/1 sar:1/1 sws_param:flags=2
+[format @ 0x5563ed8bb8c0] compat: called with args=[gbrp10le]
+[format @ 0x5563ed8bb8c0] Setting 'pix_fmts' to value 'gbrp10le'
+[AVFilterGraph @ 0x5563ed8b9740] query_formats: 4 queried, 3 merged, 0 already done, 0 delayed
+Output #0, framemd5, to '/tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_ffv1.framemd5':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0, 0, 1/24: Video: rawvideo (G3[0][10] / 0xA003347), gbrp10le, 640x480 [SAR 1:1 DAR 4:3], q=2-31, 221184 kb/s, 24 fps, 24 tbn, 24 tbc (default)
+    Metadata:
+      DURATION        : 00:00:02.000000000
+      encoder         : Lavc57.107.100 rawvideo
+Clipping frame in rate conversion by 0.000008
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+frame=   43 fps=0.0 q=-0.0 size=       4kB time=00:00:01.79 bitrate=  16.3kbits/s speed=3.47x    Clipping frame in rate conversion by 0.007988
+Clipping frame in rate conversion by 0.007988
+[out_0_0 @ 0x5563ed8bb660] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   48 fps=0.0 q=-0.0 Lsize=       4kB time=00:00:02.00 bitrate=  16.2kbits/s speed=3.41x    
+video:86400kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Input file #0 (/home/kieranjol/tests/output/87e25ab6-b666-4e2e-a993-60442d4c5556.mkv):
+  Input stream #0:0 (video): 48 packets read (18984765 bytes); 48 frames decoded; 
+  Input stream #0:1 (attachment): 0 packets read (0 bytes); 
+  Total: 48 packets (18984765 bytes) demuxed
+Output file #0 (/tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_ffv1.framemd5):
+  Output stream #0:0 (video): 48 frames encoded; 48 packets muxed (88473600 bytes); 
+  Total: 48 packets (88473600 bytes) muxed
+48 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 0x5563ecdb6660] Statistics: 0 seeks, 49 writeouts
+[AVIOContext @ 0x5563ecb8c100] Statistics: 18990571 bytes read, 0 seeks

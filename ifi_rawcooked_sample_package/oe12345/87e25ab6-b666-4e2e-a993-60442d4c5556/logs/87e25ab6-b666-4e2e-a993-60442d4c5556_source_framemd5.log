@@ -1,0 +1,222 @@
+ffmpeg started on 2018-12-15 at 09:45:32
+Report written to "/tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_source_framemd5.log"
+Command line:
+ffmpeg -report -f image2 -framerate 24 -start_number 000001 -i "/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_%06d.dpx" -pix_fmt gbrp10le -f framemd5 /tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_source.framemd5
+ffmpeg version 3.4.4-0ubuntu0.18.04.1 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Splitting the commandline.
+Reading option '-report' ... matched as option 'report' (generate a report) with argument '1'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'image2'.
+Reading option '-framerate' ... matched as AVOption 'framerate' with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '000001'.
+Reading option '-i' ... matched as input url with argument '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_%06d.dpx'.
+Reading option '-pix_fmt' ... matched as option 'pix_fmt' (set pixel format) with argument 'gbrp10le'.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'framemd5'.
+Reading option '/tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_source.framemd5' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option report (generate a report) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url /home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_%06d.dpx.
+Applying option f (force format) with argument image2.
+Successfully parsed a group of options.
+Opening an input file: /home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_%06d.dpx.
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000001.dpx' for reading
+[file @ 0x5570a271b080] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a2719ee0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000002.dpx' for reading
+[file @ 0x5570a271a280] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a271ae80] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000003.dpx' for reading
+[file @ 0x5570a2718dc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a2718ea0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000004.dpx' for reading
+[file @ 0x5570a27191e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a27193c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000005.dpx' for reading
+[file @ 0x5570a2719740] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a2719a40] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_%06d.dpx':
+  Duration: 00:00:02.00, start: 0.000000, bitrate: N/A
+    Stream #0:0, 5, 1/24: Video: dpx, gbrp10le, 640x480 [SAR 1:1 DAR 4:3], 24 fps, 24 tbr, 24 tbn, 24 tbc
+Successfully opened the file.
+Parsing a group of options: output url /tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_source.framemd5.
+Applying option pix_fmt (set pixel format) with argument gbrp10le.
+Applying option f (force format) with argument framemd5.
+Successfully parsed a group of options.
+Opening an output file: /tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_source.framemd5.
+[file @ 0x5570a271da20] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (dpx (native) -> rawvideo (native))
+Press [q] to stop, [?] for help
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+detected 4 logical cores
+[graph 0 input from stream 0:0 @ 0x5570a2922720] Setting 'video_size' to value '640x480'
+[graph 0 input from stream 0:0 @ 0x5570a2922720] Setting 'pix_fmt' to value '86'
+[graph 0 input from stream 0:0 @ 0x5570a2922720] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 0x5570a2922720] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 0:0 @ 0x5570a2922720] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 0x5570a2922720] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 0x5570a2922720] w:640 h:480 pixfmt:gbrp10le tb:1/24 fr:24/1 sar:1/1 sws_param:flags=2
+[format @ 0x5570a29237c0] compat: called with args=[gbrp10le]
+[format @ 0x5570a29237c0] Setting 'pix_fmts' to value 'gbrp10le'
+[AVFilterGraph @ 0x5570a271d980] query_formats: 4 queried, 3 merged, 0 already done, 0 delayed
+Output #0, framemd5, to '/tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_source.framemd5':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0, 0, 1/24: Video: rawvideo (G3[0][10] / 0xA003347), gbrp10le, 640x480 [SAR 1:1 DAR 4:3], q=2-31, 221184 kb/s, 24 fps, 24 tbn, 24 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 rawvideo
+Clipping frame in rate conversion by 0.000008
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000006.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000007.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000008.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000009.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000010.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000011.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000012.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000013.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000014.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000015.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000016.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000017.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000018.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000019.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000020.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000021.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000022.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000023.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000024.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000025.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000026.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000027.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000028.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000029.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000030.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000031.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000032.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000033.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000034.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000035.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000036.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000037.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000038.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000039.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000040.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000041.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000042.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000043.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000044.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000045.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000046.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000047.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[image2 @ 0x5570a2713b00] Opening '/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_000048.dpx' for reading
+[file @ 0x5570a27192e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5570a29267c0] Statistics: 1230464 bytes read, 0 seeks
+[out_0_0 @ 0x5570a2923480] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   48 fps=0.0 q=-0.0 Lsize=       4kB time=00:00:02.00 bitrate=  16.2kbits/s speed=11.5x    
+video:86400kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Input file #0 (/home/kieranjol/tests/dpx_48_frames/dont_call_me_eddie_%06d.dpx):
+  Input stream #0:0 (video): 48 packets read (59062272 bytes); 48 frames decoded; 
+  Total: 48 packets (59062272 bytes) demuxed
+Output file #0 (/tmp/87e25ab6-b666-4e2e-a993-60442d4c5556_source.framemd5):
+  Output stream #0:0 (video): 48 frames encoded; 48 packets muxed (88473600 bytes); 
+  Total: 48 packets (88473600 bytes) muxed
+48 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 0x5570a271d740] Statistics: 0 seeks, 49 writeouts
