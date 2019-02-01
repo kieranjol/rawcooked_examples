@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mediainfo version="18.12">
+<File>
+<track type="General">
+<Count>333</Count>
+<StreamCount>1</StreamCount>
+<StreamKind>General</StreamKind>
+<StreamKind_String>General</StreamKind_String>
+<StreamKindID>0</StreamKindID>
+<UniqueID>207029939287585931251499733701106814201</UniqueID>
+<UniqueID_String>207029939287585931251499733701106814201 (0x9BC08415073175E7CBF9297CC8AF4CF9)</UniqueID_String>
+<VideoCount>1</VideoCount>
+<Video_Format_List>FFV1</Video_Format_List>
+<Video_Format_WithHint_List>FFV1</Video_Format_WithHint_List>
+<Video_Codec_List>FFV1</Video_Codec_List>
+<CompleteName>/home/kieran110s/ifigit/ifiscripts/rawcooked_examples/ifi_rawcooked_sample_package/oe12345/7fc037bd-c323-4db1-9b49-07c605ba6064/objects/7fc037bd-c323-4db1-9b49-07c605ba6064.mkv</CompleteName>
+<FolderName>/home/kieran110s/ifigit/ifiscripts/rawcooked_examples/ifi_rawcooked_sample_package/oe12345/7fc037bd-c323-4db1-9b49-07c605ba6064/objects</FolderName>
+<FileNameExtension>7fc037bd-c323-4db1-9b49-07c605ba6064.mkv</FileNameExtension>
+<FileName>7fc037bd-c323-4db1-9b49-07c605ba6064</FileName>
+<FileExtension>mkv</FileExtension>
+<Format>Matroska</Format>
+<Format_String>Matroska</Format_String>
+<Format_Url>https://matroska.org/downloads/windows.html</Format_Url>
+<Format_Extensions>mkv mk3d mka mks</Format_Extensions>
+<Format_Commercial>Matroska</Format_Commercial>
+<Format_Version>Version 4</Format_Version>
+<FileSize>18990567</FileSize>
+<FileSize_String>18.1 MiB</FileSize_String>
+<FileSize_String1>18 MiB</FileSize_String1>
+<FileSize_String2>18 MiB</FileSize_String2>
+<FileSize_String3>18.1 MiB</FileSize_String3>
+<FileSize_String4>18.11 MiB</FileSize_String4>
+<Duration>2000</Duration>
+<Duration_String>2s 0ms</Duration_String>
+<Duration_String1>2s 0ms</Duration_String1>
+<Duration_String2>2s 0ms</Duration_String2>
+<Duration_String3>00:00:02.000</Duration_String3>
+<Duration_String4>00:00:02:00</Duration_String4>
+<Duration_String5>00:00:02.000 (00:00:02:00)</Duration_String5>
+<OverallBitRate_Mode>VBR</OverallBitRate_Mode>
+<OverallBitRate_Mode_String>VBR</OverallBitRate_Mode_String>
+<OverallBitRate>75962272</OverallBitRate>
+<OverallBitRate_String>76.0 Mbps</OverallBitRate_String>
+<FrameRate>24.000</FrameRate>
+<FrameRate_String>24.000 fps2</FrameRate_String>
+<FrameCount>48</FrameCount>
+<StreamSize>377911</StreamSize>
+<StreamSize_String>369 KiB (2%)</StreamSize_String>
+<StreamSize_String1>369 KiB</StreamSize_String1>
+<StreamSize_String2>369 KiB</StreamSize_String2>
+<StreamSize_String3>369 KiB</StreamSize_String3>
+<StreamSize_String4>369.1 KiB</StreamSize_String4>
+<StreamSize_String5>369 KiB (2%)</StreamSize_String5>
+<StreamSize_Proportion>0.01990</StreamSize_Proportion>
+<IsStreamable>Yes</IsStreamable>
+<File_Modified_Date>UTC 2019-02-01 21:33:29</File_Modified_Date>
+<File_Modified_Date_Local>2019-02-01 21:33:29</File_Modified_Date_Local>
+<Encoded_Application>Lavf58.10.100</Encoded_Application>
+<Encoded_Application_String>Lavf58.10.100</Encoded_Application_String>
+<Encoded_Library>Lavf58.10.100</Encoded_Library>
+<Encoded_Library_String>Lavf58.10.100</Encoded_Library_String>
+<ErrorDetectionType>Per level 1</ErrorDetectionType>
+<Attachments>RAWcooked reversibility data</Attachments>
+</track>
+<track type="Video">
+<Count>377</Count>
+<StreamCount>1</StreamCount>
+<StreamKind>Video</StreamKind>
+<StreamKind_String>Video</StreamKind_String>
+<StreamKindID>0</StreamKindID>
+<StreamOrder>0</StreamOrder>
+<ID>1</ID>
+<ID_String>1</ID_String>
+<UniqueID>1</UniqueID>
+<Format>FFV1</Format>
+<Format_String>FFV1</Format_String>
+<Format_Commercial>FFV1</Format_Commercial>
+<Format_Version>Version 3.4</Format_Version>
+<Format_Settings_GOP>N=1</Format_Settings_GOP>
+<CodecID>V_MS/VFW/FOURCC / FFV1</CodecID>
+<CodecID_Url>http://ffdshow-tryout.sourceforge.net/</CodecID_Url>
+<Duration>2000.000000</Duration>
+<Duration_String>2s 0ms</Duration_String>
+<Duration_String1>2s 0ms</Duration_String1>
+<Duration_String2>2s 0ms</Duration_String2>
+<Duration_String3>00:00:02.000</Duration_String3>
+<Duration_String4>00:00:02:00</Duration_String4>
+<Duration_String5>00:00:02.000 (00:00:02:00)</Duration_String5>
+<BitRate_Mode>VBR</BitRate_Mode>
+<BitRate_Mode_String>VBR</BitRate_Mode_String>
+<BitRate>74450624</BitRate>
+<BitRate_String>74.5 Mbps</BitRate_String>
+<Width>640</Width>
+<Width_String>640 pixel3</Width_String>
+<Height>480</Height>
+<Height_String>480 pixel3</Height_String>
+<PixelAspectRatio>1.000</PixelAspectRatio>
+<DisplayAspectRatio>1.333</DisplayAspectRatio>
+<DisplayAspectRatio_String>4:3</DisplayAspectRatio_String>
+<FrameRate_Mode>CFR</FrameRate_Mode>
+<FrameRate_Mode_String>CFR</FrameRate_Mode_String>
+<FrameRate>24.000</FrameRate>
+<FrameRate_String>24.000 fps2</FrameRate_String>
+<FrameCount>48</FrameCount>
+<ColorSpace>RGB</ColorSpace>
+<BitDepth>10</BitDepth>
+<BitDepth_String>10 bit3</BitDepth_String>
+<ScanType>Progressive</ScanType>
+<ScanType_String>Progressive</ScanType_String>
+<Compression_Mode>Lossless</Compression_Mode>
+<Compression_Mode_String>Lossless</Compression_Mode_String>
+<Bits_Pixel_Frame_>10.098</Bits_Pixel_Frame_>
+<Delay>0</Delay>
+<Delay_String3>00:00:00.000</Delay_String3>
+<Delay_Source>Container</Delay_Source>
+<Delay_Source_String>Container</Delay_Source_String>
+<StreamSize>18612656</StreamSize>
+<StreamSize_String>17.8 MiB (98%)</StreamSize_String>
+<StreamSize_String1>18 MiB</StreamSize_String1>
+<StreamSize_String2>18 MiB</StreamSize_String2>
+<StreamSize_String3>17.8 MiB</StreamSize_String3>
+<StreamSize_String4>17.75 MiB</StreamSize_String4>
+<StreamSize_String5>17.8 MiB (98%)</StreamSize_String5>
+<StreamSize_Proportion>0.98010</StreamSize_Proportion>
+<Encoded_Library>Lavc58.14.100 ffv1</Encoded_Library>
+<Encoded_Library_String>Lavc58.14.100 ffv1</Encoded_Library_String>
+<Default>Yes</Default>
+<Default_String>Yes</Default_String>
+<Forced>No</Forced>
+<Forced_String>No</Forced_String>
+<coder_type>Range Coder</coder_type>
+<MaxSlicesCount>16</MaxSlicesCount>
+<ErrorDetectionType>Per slice</ErrorDetectionType>
+</track>
+</File>
+</Mediainfo>
+
